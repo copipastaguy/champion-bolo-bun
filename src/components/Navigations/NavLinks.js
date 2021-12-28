@@ -34,7 +34,7 @@ function NavLinks() {
       </div>
 
       <div className={classes.socialMediaIcons}>
-        <a href="https://www.instagram.com/championflagship/" target="_blank">
+        <a href="https://www.instagram.com/championflagship/" target="_blank" rel="noreferrer">
           <CgInstagram size="30px" color="black" />
         </a>
       </div>

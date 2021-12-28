@@ -1,10 +1,8 @@
 import "../../styles/About.css";
 import Articles from "../../components/Articles/Articles.js";
 
-export const ScrollPageDown = () => {
-  console.log("page scroll");
-  window.scrollBy(0, window.innerHeight);
-};
+import Button from "../../components/Button/Button"
+import { ScrollPageDown } from "../../components/Button/Button"
 
 function About() {
   // Page scrolling function
@@ -47,9 +45,7 @@ function About() {
         </div>
 
         {/* View articles button */}
-        <div className="view-articles-btn btn" onClick={ScrollPageDown}>
-          View articles
-        </div>
+        <Button className="view-articles-btn btn" text="View Articles" runFunction={ScrollPageDown}/>
       </section>
 
       {/* Champion articles */}

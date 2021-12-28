@@ -1,9 +1,11 @@
 // Individual merchandise
 
-function Merchandise() {
+function Merchandise({ image, name, price, button}) {
     return (
-        <div>
-            
+        <div className="merchandise">
+            <img src={image} alt="product" />
+            <p>{name}</p>
+            <p>{price}</p>
         </div>
     )
 }

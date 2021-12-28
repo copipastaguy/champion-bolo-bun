@@ -1,18 +1,22 @@
 import "../../styles/Menu.css";
 import MenuImage from "../../assets/images/champion-menu.jpg";
-import ScrollPageDown from "../About/About.js";
+import "../../components/Merchandises/Merchandises"
+
+// Destructure function 
+import Button from "../../components/Button/Button"
+import { ScrollPageDown } from "../../components/Button/Button"
+import Merchandises from "../../components/Merchandises/Merchandises";
 
 function Menu() {
   return (
     <div className="menuPage">
       {/* <h3>Menu</h3> */}
       <img className="menuImage" src={MenuImage} alt="champion menu" />
-      <div className="merchBtn btn" onClick={ScrollPageDown}>
-        View Merchandise
-      </div>
+      <Button className="view-merch-btn btn" text="View Merchandise" runFunction={ScrollPageDown}/>
 
       <div className="merchPage">
-        <h3>Merch</h3>
+        <p className="merchPage-title">Champion's Merchandise </p>
+        <Merchandises />
       </div>
     </div>
   );
