@@ -1,5 +1,5 @@
 import NavLinks from "./NavLinks";
-import classes from "./NavBar.module.css";
+import classes from "../../styles/NavBar.module.css";
 function Navigation() {
   return (
     <div className={classes.navigation}>

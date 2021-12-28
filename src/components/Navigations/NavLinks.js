@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import classes from "./NavBar.module.css";
-import Logo from "./logo300x.png";
+import classes from "../../styles/NavBar.module.css";
+import Logo from "../../assets/icons/logo300x.png";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CgInstagram } from "react-icons/cg";
 
@@ -34,7 +34,7 @@ function NavLinks() {
       </div>
 
       <div className={classes.socialMediaIcons}>
-        <a href="instagram.com">
+        <a href="https://www.instagram.com/championflagship/" target="_blank">
           <CgInstagram size="30px" color="black" />
         </a>
       </div>

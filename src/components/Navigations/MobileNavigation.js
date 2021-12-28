@@ -1,7 +1,5 @@
-import { Link, useNavigate } from "react-router-dom";
-import classes from "./NavBar.module.css";
+import classes from "../../styles/NavBar.module.css";
 import NavLinks from "./NavLinks";
-import Logo from "./logo300x.png";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";

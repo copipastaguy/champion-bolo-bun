@@ -1,4 +1,4 @@
-import classes from "./NavBar.module.css";
+import classes from "../../styles/NavBar.module.css";
 import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
 
