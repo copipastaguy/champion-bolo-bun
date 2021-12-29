@@ -12,9 +12,10 @@
 }
 
 .merchPage {
+  display: flex;
+  flex-direction: row;
   margin-top: 3%;
-  height: 100vh;
+  height: 120vh;
   width: 90%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
-
