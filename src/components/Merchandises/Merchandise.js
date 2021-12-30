@@ -1,16 +1,18 @@
 import { useState } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import data from "./data";
 // Individual merchandise
-function Merchandise({ producImage, productName, productPrice }) {
+function Merchandise({ productImage, productName, productPrice }) {
   // initial state of cart btn is false
   // const [showCart, isShown] = useState(false);
 
+  console.log(data.productData);
   return (
     <div className="merchandise">
       <div
         className="product-image"
         style={{
-          backgroundImage: `url(${producImage})`,
+          backgroundImage: `url(${productImage})`,
           width: "300px",
           height: "400px",
         }}
@@ -21,7 +23,7 @@ function Merchandise({ producImage, productName, productPrice }) {
         <p className="product-name">{productName}</p>
         <p className="product-price">{productPrice}</p>
       </div>
-      <div className="add-to-cart btn" >
+      <div className="add-to-cart btn">
         <AiOutlineShoppingCart />
         <p>Add to cart</p>
       </div>

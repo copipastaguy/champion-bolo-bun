@@ -1,3 +1,7 @@
+// Stripe integration
+import { Elements } from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
+
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navigations/NavBar";
