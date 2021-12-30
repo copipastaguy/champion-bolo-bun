@@ -27,6 +27,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
+
       </div>
     </BrowserRouter>
   );

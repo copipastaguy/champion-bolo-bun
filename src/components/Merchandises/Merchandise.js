@@ -1,12 +1,14 @@
-import { useState } from "react";
+// import { useState } from "react";
+import { useCart } from "react-use-cart";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import data from "./data";
+
 // Individual merchandise
-function Merchandise({ productImage, productName, productPrice }) {
+function Merchandise({ productImage, productName, productPrice, item }) {
   // initial state of cart btn is false
   // const [showCart, isShown] = useState(false);
 
-  console.log(data.productData);
+  const { addItem } = useCart();
+
   return (
     <div className="merchandise">
       <div
@@ -21,9 +23,9 @@ function Merchandise({ productImage, productName, productPrice }) {
       {/* <img className="product-image" src={image} alt="product" /> */}
       <div className="product-info">
         <p className="product-name">{productName}</p>
-        <p className="product-price">{productPrice}</p>
+        <p className="product-price">${productPrice}</p>
       </div>
-      <div className="add-to-cart btn">
+      <div className="add-to-cart btn" onClick={() => addItem(item)}>
         <AiOutlineShoppingCart />
         <p>Add to cart</p>
       </div>

@@ -1,10 +1,13 @@
 import React from "react";
+import {CartProvider } from "react-use-cart";
 
 function Cart() {
   return (
-    <div>
+    <CartProvider>
+    <div className="cartPage">
       <h1>Cart</h1>
     </div>
+    </CartProvider>
   );
 }
 
