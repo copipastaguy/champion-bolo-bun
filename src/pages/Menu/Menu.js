@@ -10,7 +10,6 @@ import Merchandises from "../../components/Merchandises/Merchandises";
 function Menu() {
   return (
     <div className="menuPage">
-      {/* <h3>Menu</h3> */}
       <img className="menuImage" src={MenuImage} alt="champion menu" />
       <Button
         className="view-merch-btn btn"

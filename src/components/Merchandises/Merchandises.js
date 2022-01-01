@@ -4,22 +4,22 @@ import data from "./data";
 import Merchandise from "./Merchandise.js";
 
 function Merchandises() {
-  return(
-  
+  return (
     <div className="merchandises">
       {data.productData.map((item, index) => {
         return (
-        <Merchandise
-          productImage={item.productImage}
-          productName={item.productName}
-          productPrice={item.productPrice}
-          key={index}
-          item={item}
-        />
-        )
+          <Merchandise
+            productImage={item.productImage}
+            productName={item.productName}
+            productPrice={item.productPrice}
+            taxPrice={item.taxPrice}
+            key={index}
+            item={item}
+          />
+        );
       })}
     </div>
-  )
+  );
 
   // <Merchandise
   //   productImage="https://via.placeholder.com/300x400"
@@ -51,7 +51,6 @@ function Merchandises() {
   //   productName="Champion's Shopping Bag + Bolo Bun Pin + Champion's Cap Bundle"
   //   productPrice="$60.00"
   // />
-
 }
 
 export default Merchandises;

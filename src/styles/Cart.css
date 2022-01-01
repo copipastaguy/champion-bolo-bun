@@ -1,0 +1,31 @@
+.cartPage {
+  display: flex;
+  width: 65%;
+  height: 100%;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: 10% 0 0 15%;
+}
+
+.cartPage h1 {
+  font-size: 36px;
+}
+
+.table {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+}
+
+.table-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  align-self: center;
+  width: 20%;
+  overflow: hidden;
+  list-style: none;
+  padding: 0.8em 1.2em;
+  border: 1px solid red;
+}

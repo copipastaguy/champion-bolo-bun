@@ -57,3 +57,21 @@
 .add-to-cart p {
   margin-left: 15px;
 }
+
+.added-feedback {
+  position: absolute;
+  left: 50%;
+  bottom: -10%;
+  transform: translate(-50%, 200%);
+}
+
+.table-headers {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.table-product-image {
+  /* width: 250px; */
+  border: 1px solid black;
+}
