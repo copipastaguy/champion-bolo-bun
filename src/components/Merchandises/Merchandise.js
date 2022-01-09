@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useCart } from "react-use-cart";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
@@ -7,15 +7,14 @@ function Merchandise({
   productImage,
   productName,
   productPrice,
-  taxPrice,
   item,
 }) {
-  const [feedback, setFeedback] = useState("");
+  // const [feedback, setFeedback] = useState("");
   const { addItem } = useCart();
 
   return (
     <div className="merchandise">
-      <p className="added-feedback">{feedback}</p>
+      {/* <p className="added-feedback">{feedback}</p> */}
       <div
         className="product-image"
         style={{
@@ -33,8 +32,9 @@ function Merchandise({
       <div
         className="add-to-cart btn"
         onClick={function (event) {
+          console.log("item added to cart");
           addItem(item);
-          setFeedback("Item added to cart");
+          // setFeedback("Item added to cart");
         }}
       >
         <AiOutlineShoppingCart />

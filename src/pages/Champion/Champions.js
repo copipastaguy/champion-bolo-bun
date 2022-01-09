@@ -1,7 +1,10 @@
+import Dropdown from "../../components/Dropdown/Dropdown";
+
 function Champions() {
   return (
-    <div>
-      <h1>Champions</h1>
+    <div className="championPage">
+      <h1>Join Us</h1>
+      <Dropdown />
     </div>
   );
 }

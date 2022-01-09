@@ -4,7 +4,7 @@ const data = {
       id: 1,
       productImage: "https://via.placeholder.com/300x400",
       productName: "Champion's Shopping Bag",
-      productPrice: "35.00",
+      price: "35.00",
       taxPrice: "37.45",
     },
     {

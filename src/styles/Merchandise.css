@@ -59,9 +59,6 @@
 }
 
 .added-feedback {
-  position: absolute;
-  left: 50%;
-  bottom: -10%;
   transform: translate(-50%, 200%);
 }
 

@@ -20,17 +20,17 @@ function NavLinks() {
           <p>Champions</p>
         </Link>
 
-        <Link to="/contact">
+        {/* <Link to="/contact">
           <p>Contact</p>
-        </Link>
+        </Link> */}
 
         <Link to="/menu">
           <p>Menu</p>
         </Link>
 
-        <Link to="/cart">
+        {/* <Link to="/cart">
           <AiOutlineShoppingCart className={classes.cartIcon} size="40px" />
-        </Link>
+        </Link> */}
       </div>
 
       <div className={classes.socialMediaIcons}>

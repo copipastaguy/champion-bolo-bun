@@ -79,7 +79,12 @@
   transition: all 300ms;
 }
 
-.navLinks a:not(:first-child):not(:last-child):hover:after {
+/* .navLinks a:hover:after {
+  width: 100%;
+  left: 0;
+} */
+
+.navLinks a:not(:first-child):hover:after {
   width: 100%;
   left: 0;
 }

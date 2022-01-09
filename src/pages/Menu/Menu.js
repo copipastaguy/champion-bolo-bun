@@ -1,6 +1,7 @@
 import "../../styles/Menu.css";
 import MenuImage from "../../assets/images/champion-menu.jpg";
 import "../../components/Merchandises/Merchandises";
+import Cart from "../Cart/Cart"
 
 // Destructure function
 import Button from "../../components/Button/Button";
@@ -19,6 +20,7 @@ function Menu() {
 
       <div className="merchPage">
         <Merchandises />
+        <Cart />
       </div>
     </div>
   );
