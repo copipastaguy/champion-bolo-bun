@@ -18,7 +18,7 @@ function App() {
   return (
     // Routing from one link to another page
     <CartProvider>
-      <HashRouter basename="/champion-bolo-bun">
+      <HashRouter>
         <div className="App">
           <NavBar />
           <Routes>
