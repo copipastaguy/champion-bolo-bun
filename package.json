@@ -1,6 +1,6 @@
 {
-  "homepage": "http://copipastaguy.github.io/champion",
   "name": "champion",
+  "homepage": "http://copipastaguy.github.io/champion",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
