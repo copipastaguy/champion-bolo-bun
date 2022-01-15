@@ -4,7 +4,7 @@
 import { CartProvider } from "react-use-cart";
 
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import NavBar from "./components/Navigations/NavBar";
 import About from "./pages/About/About.js";
 import Champions from "./pages/Champion/Champions.js";
@@ -18,19 +18,19 @@ function App() {
   return (
     // Routing from one link to another page
     <CartProvider>
-      <BrowserRouter>
+      <HashRouter basename="/champion-bolo-bun">
         <div className="App">
           <NavBar />
           <Routes>
-            <Route path="/" element={<HomeContent />} key="reload" />
-            <Route path="/about" element={<About />} />
-            <Route path="/champions" element={<Champions />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route exact path="/" element={<HomeContent />} key="reload" />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/champions" element={<Champions />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/menu" element={<Menu />} />
+            <Route exact path="/cart" element={<Cart />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </CartProvider>
   );
 }

@@ -8,7 +8,7 @@ function NavLinks() {
   return (
     <div className={classes.navBar}>
       <div className={classes.navLinks}>
-        <Link to="/">
+        <Link to="/champion-bolo-bun">
           <img className={classes.logo} src={Logo} alt="logo" />
         </Link>
 
@@ -34,7 +34,11 @@ function NavLinks() {
       </div>
 
       <div className={classes.socialMediaIcons}>
-        <a href="https://www.instagram.com/championflagship/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.instagram.com/championflagship/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <CgInstagram size="30px" color="black" />
         </a>
       </div>
