@@ -8,7 +8,7 @@ function NavLinks() {
   return (
     <div className={classes.navBar}>
       <div className={classes.navLinks}>
-        <Link to="/champion-bolo-bun">
+        <Link to="/">
           <img className={classes.logo} src={Logo} alt="logo" />
         </Link>
 
