@@ -7,8 +7,8 @@
 }
 
 .menuImage {
-  width: 400px;
-  margin-bottom: 3%;
+  width: 350px;
+  margin: 2% 0 1% 0;
 }
 
 .merchPage {
@@ -17,5 +17,4 @@
   margin-top: 3%;
   height: 120vh;
   width: 90%;
-  /* border: 1px solid red; */
 }

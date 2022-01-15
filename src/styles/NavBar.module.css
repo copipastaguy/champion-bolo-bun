@@ -4,12 +4,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
 }
 
 .logo {
   width: 50px;
-  z-index: 5;
+  z-index: -1;
 }
 
 /* WEB NAVIGATION */
@@ -47,6 +46,7 @@
 
 /* NAVIGATION LINKS */
 .navLinks {
+  z-index: 2;
   list-style: none;
   display: flex;
   flex-direction: row;
