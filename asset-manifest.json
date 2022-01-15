@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/champion-bolo-bun/static/css/main.d43e75c2.css",
-    "main.js": "/champion-bolo-bun/static/js/main.99ac17f9.js",
+    "main.js": "/champion-bolo-bun/static/js/main.578029e8.js",
     "static/js/787.5604536d.chunk.js": "/champion-bolo-bun/static/js/787.5604536d.chunk.js",
     "static/media/logo300x.png": "/champion-bolo-bun/static/media/logo300x.7e3a058f62a529b686d2.png",
     "static/media/champion-menu.jpg": "/champion-bolo-bun/static/media/champion-menu.b6b8b43367404247a6f5.jpg",
     "index.html": "/champion-bolo-bun/index.html",
     "main.d43e75c2.css.map": "/champion-bolo-bun/static/css/main.d43e75c2.css.map",
-    "main.99ac17f9.js.map": "/champion-bolo-bun/static/js/main.99ac17f9.js.map",
+    "main.578029e8.js.map": "/champion-bolo-bun/static/js/main.578029e8.js.map",
     "787.5604536d.chunk.js.map": "/champion-bolo-bun/static/js/787.5604536d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d43e75c2.css",
-    "static/js/main.99ac17f9.js"
+    "static/js/main.578029e8.js"
   ]
 }
